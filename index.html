@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<link rel="icon" href="https://img.icons8.com/color/48/000000/nepal.png" style="border-radius: 50%;" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pradip Banjara || Heart</title>
+  <style media="screen">
+  * {
+margin: 0;
+padding: 0;
+}
+
+html, body {
+height: 100%;
+}
+
+body {
+animation: pulse 3s ease-out infinite;
+background: radial-gradient(250px 250px, #ffffff, rgba(0, 0, 0, 0) 1000px), #5659fd;
+overflow: hidden;
+font-family: 'Akaya Telivigala', cursive;
+}
+
+.heart {
+background-color: #ff4040;
+border-bottom-right-radius: 0.8em;
+height: 8em;
+
+margin: auto;
+position: relative;
+top: calc( (100% - 8em ) / 2 );
+width: 8em;
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.heart:before, .heart:after {
+background-color: inherit;
+border-radius: 8em;
+content: "";
+height: 8em;
+left: 0;
+position: absolute;
+top: 0;
+width: 8em;
+z-index: 0;
+}
+.heart:before {
+top: -4em;
+}
+.heart:after {
+left: -4em;
+}
+.heart > strong {
+color: #fff;
+font-size: 2.5em;
+display: block;
+position: relative;
+text-align: center;
+width: 5em;
+z-index: 1;
+-moz-transform: rotate(-45deg) translateX(-0.9em) translateY(-1em);
+-ms-transform: rotate(-45deg) translateX(-0.9em) translateY(-1em);
+-webkit-transform: rotate(-45deg) translateX(-0.9em) translateY(-1em);
+transform: rotate(-45deg) translateX(-0.9em) translateY(-1em);
+}
+
+@keyframes pulse {
+0% {
+  font-size: 20px;
+}
+50% {
+  font-size: 30px;
+}
+100% {
+  font-size: 20px;
+}
+}
+
+  </style>
+</head>
+<body>
+  <p class="heart">
+    <strong>धेरै माया  <br>आमा  </strong>
+  </p>
+</body>
+</html>
